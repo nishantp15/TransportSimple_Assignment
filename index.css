@@ -230,12 +230,16 @@ li{
     margin-bottom: 20px;
 }
 
+.first{
+    flex-wrap: wrap-reverse;
+}
+
 .col-1{
-    width: 60%;
+    width: 600px;
 }
 
 .col-2{
-    width: 35%;
+    width: 300px;
 }
 
 .country-add{
@@ -245,6 +249,9 @@ li{
     justify-content: space-between;
     padding-bottom: 20px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .indiv-country-add{
@@ -274,7 +281,7 @@ li{
 }
 
 form{
-    width: 100%;
+    width: 300px;
     border: 1px solid red;
     display: flex;
     flex-direction: column;
