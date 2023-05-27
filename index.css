@@ -227,6 +227,7 @@ li{
     border: 1px solid red;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .col-1{
@@ -311,4 +312,43 @@ form>button{
     border: none;
     background-color: rgb(255, 162, 0);
     color: white;
+}
+
+.footer-links{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links a{
+    text-decoration: none !important;
+    color: white;
+    font-weight: 500;
+}
+
+.footer-icons{
+    width: 35%;
+}
+
+.row:nth-child(3){
+    justify-content: space-between;
+}
+
+.row:nth-child(3) div:first-child{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.row:nth-child(3) div:nth-child(2){
+    display: flex;
+    width: 35%;
+    justify-content: flex-end;
+}
+
+.row:nth-child(3)>div>a{
+    text-decoration: none !important;
+    color: white;
+    font-size: 12px;
+    margin-right: 20px;
 }
