@@ -184,6 +184,11 @@ li {
   top: 500px;
 }
 
+.svg3 {
+    position: absolute;
+    left: -130px;
+    top: 2550px;
+  }
 /* images in section 2 */
 
 .imgOnSvg {
@@ -590,6 +595,8 @@ li {
 .section-6 > div > div > div > img {
   width: 80px;
   margin-right: 10px;
+  border-radius: 50%;
+
 }
 
 /*  */
@@ -772,6 +779,8 @@ li {
 .contacts > div > p:nth-child(2) {
   font-size: 14px;
 }
+
+
 
 form {
   width: 300px;
@@ -1273,6 +1282,10 @@ form > button {
 
   .section-8-col-1>div:nth-child(2)>div{
     width: 49%;
+  }
+
+  .indiv-country-add {
+    width: 90%;
   }
  
 
