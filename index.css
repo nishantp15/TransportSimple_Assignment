@@ -1288,6 +1288,8 @@ form > button {
     width: 90%;
   }
  
-
+  .svg3{
+    display: none;
+  }
 
 }
