@@ -23,6 +23,14 @@ body {
     rgba(77, 108, 193, 0.1) 0px 2px 4px -1px;
 }
 
+.header-sub-box-mob{
+    display: none;
+}
+
+.menu-mob{
+    display: none;
+}
+
 .navbar-comp {
   width: 100%;
   /* border: 1px solid blue; */
@@ -694,6 +702,73 @@ form > button {
 }
 
 @media screen and (min-width: 375px) and (max-width: 700px) {
+  .header-sub-box {
+    display: none;
+  }
+
+  .header-sub-box-mob {
+    display: flex;
+    position: relative;
+    box-shadow: rgba(77, 108, 193, 0.1) 0px 4px 6px -1px,
+      rgba(77, 108, 193, 0.1) 0px 2px 4px -1px;
+    /* border: 1px solid red; */
+  }
+
+  .header-sub-box-mob i:hover{
+    color: blue;
+  }
+
+  .header-sub-box-mob > div {
+    width: 50%;
+    /* border: 1px solid red; */
+  }
+
+  .header-sub-box-mob > div img {
+    width: 100%;
+  }
+
+  .menu-mob {
+    /* border: 1px solid red; */
+    display: block;
+    width: 200px;
+    position: absolute;
+    right: -300px;
+    background-color: white;
+    transition: .5s;
+    background-color: rgb(232, 231, 231);
+    box-shadow: rgba(77, 108, 193, 0.1) 0px 4px 6px -1px,
+      rgba(77, 108, 193, 0.1) 0px 2px 4px -1px;
+      /* top: 50px; */
+  }
+
+  .menu-mob li{
+    width: 80%;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    text-decoration: none !important;
+  }
+
+  .menu-mob li a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .menu-mob li a:hover{
+    color: blue;
+  }
+  .visible{
+    right: 0px;
+  }
+
+  .header-sub-box-mob > div:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 28px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+
   .section-1 > div {
     width: 100%;
     /* border: 1px solid red; */
@@ -787,7 +862,7 @@ form > button {
     height: 12vh;
     right: 40px;
     border-radius: 10px;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .vehicle-card-indv {
@@ -837,7 +912,7 @@ form > button {
     height: 8vh;
     top: -4vh;
     left: 40%;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .section-3 > div:nth-child(2) > div > div:not(:first-child) {
@@ -856,7 +931,7 @@ form > button {
     width: 100%;
     /* border: 1px solid red; */
   }
-  
+
   .section-4 > p {
     width: 80%;
     font-size: 0.9rem;
@@ -866,59 +941,59 @@ form > button {
     margin-top: 10px;
   }
 
-  .row{
+  .row {
     flex-wrap: wrap;
   }
 
-  .row>div{
+  .row > div {
     width: 90%;
     margin: auto;
   }
 
-  .contacts>div{
+  .contacts > div {
     width: 100%;
     text-align: center;
   }
 
-  .footer-links{
-    font-size: .9rem;
+  .footer-links {
+    font-size: 0.9rem;
     margin-bottom: 20px;
   }
 
-  .footer-icons>img{
+  .footer-icons > img {
     width: 8%;
   }
 
-  .row:nth-child(3){
+  .row:nth-child(3) {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     /* border: 1px solid red; */
   }
 
-  .row:nth-child(3)>div{
-    font-size: .8rem;
+  .row:nth-child(3) > div {
+    font-size: 0.8rem;
   }
 
   .row:nth-child(3) {
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .row:nth-child(3) div:first-child {
     display: flex;
     width: 100%;
     /* margin-left: 60px; */
     /* justify-content: space-around; */
   }
-  
+
   .row:nth-child(3) div:nth-child(2) {
     display: flex;
     width: 100%;
     justify-content: center;
     margin-top: 20px;
   }
-  
+
   .row:nth-child(3) > div > a {
     /* text-decoration: none !important; */
     /* color: white; */
